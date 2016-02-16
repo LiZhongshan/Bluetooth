@@ -10,7 +10,7 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="面朝大海，春暖花开"
+        android:text="你的蓝牙你做主"
         android:typeface="serif"
 
         android:textSize="30dp"
