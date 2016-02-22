@@ -19,4 +19,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:numColumns="3" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="33dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="hello world 出品"/>
+
+    </RelativeLayout>
+
 </RelativeLayout>
