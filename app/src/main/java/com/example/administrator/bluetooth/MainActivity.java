@@ -187,11 +187,11 @@ public class MainActivity extends AppCompatActivity
             intent.setClass(MainActivity.this, ListViewActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_gallery) {
-
+            Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_slideshow) {
-
+            Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_manage) {
-
+            Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_share) {
             Intent intent = new Intent();
             intent.setClass(MainActivity.this, RegisterActivity.class);

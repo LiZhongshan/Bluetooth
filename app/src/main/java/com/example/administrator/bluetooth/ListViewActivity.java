@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.PopupMenu;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.administrator.bluetooth.other.ListViews;
@@ -25,6 +26,7 @@ public class ListViewActivity extends Activity {
     private Context mContext;
     private ListViewAdapter mAdapter = null;
     private ListView list_view;
+    private TextView txt_title;
     private ImageView show_menu;
 
     @Override
@@ -34,6 +36,8 @@ public class ListViewActivity extends Activity {
         mContext = ListViewActivity.this;
         list_view = (ListView) findViewById(R.id.list_view);
         show_menu = (ImageView) findViewById(R.id.show_menu);
+        txt_title = (TextView) findViewById(R.id.txt_title);
+        txt_title.setText("列表展示");
         mData = new LinkedList<ListViews>();
         mData.add(new ListViews("小明", "你是小明么?", "16:00", R.mipmap.iv_icon_1));
         mData.add(new ListViews("小黑", "你是小黑么?", "16:10", R.mipmap.iv_icon_2));
