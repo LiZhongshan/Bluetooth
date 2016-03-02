@@ -16,7 +16,7 @@ public class LoginActivity extends Activity {
     private EditText mUser;
     private EditText mPassword;
     private TextView txt_title;
-    private ImageView img_back;
+    private ImageView show_menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +26,8 @@ public class LoginActivity extends Activity {
         mPassword = (EditText)findViewById(R.id.login_passwd_edit);
         txt_title = (TextView) findViewById(R.id.txt_title);
         txt_title.setText("登陆");
-        img_back = (ImageView) findViewById(R.id.img_back);
-        img_back.setVisibility(View.VISIBLE);
+        show_menu = (ImageView) findViewById(R.id.show_menu);
+        show_menu.setVisibility(View.GONE);
     }
 
     public void login_mainfriend(View v) {

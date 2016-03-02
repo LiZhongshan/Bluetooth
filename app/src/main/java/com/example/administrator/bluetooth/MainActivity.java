@@ -17,6 +17,7 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -81,11 +82,27 @@ public class MainActivity extends AppCompatActivity
                     intent.setClass(MainActivity.this, TestActivity.class);
                     startActivity(intent);
                 }
-                /*if (position==2){
-                    Intent intent = new Intent();
-                    intent.setClass(MainActivity.this, MenuActivity.class);
-                    startActivity(intent);
-                }*/
+                if (position==2){
+                    Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
+                }
+                if (position==3){
+                    Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
+                }
+                if (position==4){
+                    Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
+                }
+                if (position==5){
+                    Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
+                }
+                if (position==6){
+                    Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
+                }
+                if (position==7){
+                    Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
+                }
+                if (position==8){
+                    Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -176,7 +193,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
-
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this, RegisterActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_send) {
             Intent intent = new Intent();
             intent.setClass(MainActivity.this, LoginActivity.class);

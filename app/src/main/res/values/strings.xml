@@ -8,6 +8,7 @@
     <!-- 启动页面 -->
     <string name="wel_title">今天天气不错</string>
     <string name="wel_link">lanyoung.com</string>
-    <!-- 登陆页面 -->
+    <!-- 登陆注册页面 -->
     <string name="login_title">请先登陆</string>
+    <string name="register_title">请先注册</string>
 </resources>
