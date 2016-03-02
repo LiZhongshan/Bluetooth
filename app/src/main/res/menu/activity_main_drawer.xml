@@ -20,16 +20,16 @@
             android:title="功能四" />
     </group>
 
-    <item android:title="通讯">
+    <item android:title="账号">
         <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="功能五" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="功能六" />
+                android:title="登陆" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="注册" />
         </menu>
     </item>
 
