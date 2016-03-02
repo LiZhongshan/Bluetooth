@@ -4,5 +4,8 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">设置</string>
+    <!-- 启动页面 -->
+    <string name="wel_title">今天天气不错</string>
+    <string name="wel_link">lanyoung.com</string>
 </resources>

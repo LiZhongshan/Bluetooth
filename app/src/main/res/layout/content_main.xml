@@ -24,6 +24,7 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:id="@+id/tv_test"
             android:layout_width="100dp"
             android:layout_height="33dp"
             android:layout_alignParentBottom="true"

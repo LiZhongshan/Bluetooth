@@ -3,4 +3,14 @@
     <color name="colorPrimary">#03A9F4</color>
     <color name="colorPrimaryDark">#0288D1</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="bar_color">#03A9F4</color>
+
+    <color name="white">#FFFFFF</color>       <!-- 白色 -->
+    <color name="black">#000000</color>       <!-- 黑色 -->
+    <color name="gray">#C0C0C0</color>        <!-- 灰色 -->
+    <color name="light_gray">#D3D3D3</color>  <!-- 浅灰色 -->
+    <color name="green">#00FF00</color>       <!-- 绿色 -->
+    <color name="red">#FF0000</color>         <!-- 红色 -->
+    <color name="yellow">#FFFF00</color>      <!-- 黄色 -->
+    <color name="blue">#0000FF</color>        <!-- 蓝色 -->
 </resources>

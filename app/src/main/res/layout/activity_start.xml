@@ -3,21 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/white"
     tools:context=".StartActivity">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="你的蓝牙你做主"
+        android:text="@string/wel_title"
         android:typeface="serif"
 
         android:textSize="30dp"
         android:gravity="center"
-        android:textColor="#2E9E38"
-        android:layout_centerInParent="true"
-        />
+        android:textColor="@color/green"
+        android:layout_centerInParent="true" />
+
     <ImageView
         android:id="@+id/img4"
         android:layout_width="80dp"
@@ -25,17 +25,17 @@
         android:layout_marginBottom="30dp"
         android:layout_above="@id/title"
         android:layout_centerHorizontal="true"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@mipmap/logo"/>
 
     <TextView
         android:id="@+id/company"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="lzshan.me"
+        android:text="@string/wel_link"
 
         android:textSize="23dp"
         android:gravity="center"
-        android:textColor="#515151"
+        android:textColor="@color/gray"
         android:layout_marginBottom="15dp"
         android:layout_alignParentBottom="true" />
 
