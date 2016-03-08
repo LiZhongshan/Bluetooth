@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/txt_rel"
+        android:layout_width="match_parent"
+        android:layout_height="48.0dip"
+        android:background="@color/bar_color" >
+
+        <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="40dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        android:onClick="login_back"
+        android:src="@mipmap/icon_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/txt_titleStyle1"
+            android:text="内容列表"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt_rel"/>
+
+</RelativeLayout>

@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity
         mData = new ArrayList<Icon>();
         mData.add(new Icon(R.mipmap.iv_icon_1, "列表Listview"));
         mData.add(new Icon(R.mipmap.iv_icon_2, "可折叠列表"));
-        mData.add(new Icon(R.mipmap.iv_icon_3, "菜单选项"));
+        mData.add(new Icon(R.mipmap.iv_icon_3, "交互"));
         mData.add(new Icon(R.mipmap.iv_icon_4, "图标4"));
         mData.add(new Icon(R.mipmap.iv_icon_5, "图标5"));
         mData.add(new Icon(R.mipmap.iv_icon_6, "图标6"));
@@ -83,7 +83,9 @@ public class MainActivity extends AppCompatActivity
                     startActivity(intent);
                 }
                 if (position==2){
-                    Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity.this, FragmentActivity.class);
+                    startActivity(intent);
                 }
                 if (position==3){
                     Toast.makeText(mContext, "正在开发中", Toast.LENGTH_SHORT).show();

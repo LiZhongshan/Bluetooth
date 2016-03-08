@@ -34,6 +34,9 @@
         <activity
             android:name=".RegisterActivity">
         </activity>
+        <activity
+            android:name=".FragmentActivity">
+        </activity>
     </application>
 
 </manifest>
