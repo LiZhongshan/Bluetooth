@@ -10,6 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:gravity="center_vertical"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
         android:text="呵呵"
         android:textColor="#000000"
         android:textSize="20sp" />
