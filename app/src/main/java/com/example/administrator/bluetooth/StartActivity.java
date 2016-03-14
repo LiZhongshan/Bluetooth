@@ -1,5 +1,8 @@
 package com.example.administrator.bluetooth;
-
+/*
+   软件开启页，显示3秒，3秒过后跳转到MainActivity
+   对应页面为layout/activity_start
+ */
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -19,6 +22,6 @@ public class StartActivity extends AppCompatActivity {
                 startActivity(intent);
                 StartActivity.this.finish();
             }
-        }, 1000);
+        }, 3000);
     }
 }
