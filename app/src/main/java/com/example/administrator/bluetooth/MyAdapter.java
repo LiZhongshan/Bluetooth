@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  * Created by Jay on 2015/9/22 0022.
- * MainActivity的文件
+ * MainActivity的文件 （将各种数据以合适的形式显示到view上,提供给用户看）
  */
 public abstract class MyAdapter<T> extends BaseAdapter {
 

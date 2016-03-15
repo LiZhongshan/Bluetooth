@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity
     private GridView grid_photo;
     private BaseAdapter mAdapter = null;
     private ArrayList<Icon> mData = null;
-
+    //对应页面activity_main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

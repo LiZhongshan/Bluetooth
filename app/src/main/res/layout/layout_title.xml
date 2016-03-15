@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="48.0dip"
     android:background="@color/bar_color" >
-
-
+    <!-- 自定义顶部标题栏（利用android:visibility来控制内容的显示） -->
     <ImageView
         android:id="@+id/img_back"
         android:layout_width="40dp"

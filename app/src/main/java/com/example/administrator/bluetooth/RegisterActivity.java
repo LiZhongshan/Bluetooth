@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by Administrator on 2016/3/2.
+ * Created by Administrator on 2016/3/2.注释内容同LoginActivity
  */
 public class RegisterActivity extends Activity {
     private EditText mUser;
